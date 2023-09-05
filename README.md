@@ -24,6 +24,7 @@ To reproduce our analysis, please download a copy of this repository.
 ### Empirical holding times
 
 The bash script `follow.sh` obtains empirical holding times from the Sarafu transaction records. 
+
 It performs this list of tasks:
 
 1. Define the filepaths to the $DATA directory and the `follow-the-money` repository.
@@ -33,7 +34,7 @@ It performs this list of tasks:
 
 In addition to the transaction dataset, trajectory extraction requires an input file specifying the relevant system parameters. These are encapsulated in `transactions/sarafu_config.json`. 
 
-The following flags are used in extracting trajectories:
+These flags are used in extracting trajectories:
 * `--no_balance` is used because the Sarafu dataset is complete and accounts started off empty
 * `--pairwise` traces in-transactions to out-transactions within each account, but not between accounts
 * `--mixed` refers to the allocation heuristic, whereby all possible pairs are considered
