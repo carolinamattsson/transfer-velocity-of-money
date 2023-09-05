@@ -4,23 +4,25 @@ This repository demonstrates a new methodology for estimating the transfer veloc
 
 This serves as the replication code and supplementary material for: 
 
-    Mattsson, C. E. S., Luedtke, A., & Takes, F. W. (2023). Inverse estimation of the transfer velocity of money (arXiv:2209.01512). https://doi.org/10.48550/arXiv.2209.01512
+Mattsson, C. E. S., Luedtke, A., & Takes, F. W. (2023). Inverse estimation of the transfer velocity of money (arXiv:2209.01512). https://doi.org/10.48550/arXiv.2209.01512
 
 ### Downloading the data
 
-The Sarafu CIC 2020–2021 data is available via the UK Data Service (UKDS) ReShare platform (https://reshare.ukdataservice.ac.uk/855142/). The dataset is “safeguarded”, meaning that access is limited to those who have registered with the UKDS. This page allows you to apply for an account: https://beta.ukdataservice.ac.uk/myaccount/credentials. Check the box with "My organisation is not listed, I need to request a UK Data Service username.” and follow the instructions. Notably, the use of “safeguarded” datatsets is constrained by the UKDS End User License (EUL). Seeking to re-identify individuals is explicitly prohibited.
+The Sarafu CIC 2020–2021 dataset is available via the UK Data Service (UKDS) ReShare platform and has been suitably documented (Mattsson et al., 2022; https://reshare.ukdataservice.ac.uk/855142/). The dataset is “safeguarded”, meaning that access is limited to those who have registered with the UKDS and re-use is constrained by the UKDS End User License (EUL). Seeking to re-identify individuals is explicitly prohibited.
+This page allows you to apply for an account: https://beta.ukdataservice.ac.uk/myaccount/credentials. Check the box with "My organisation is not listed, I need to request a UK Data Service username.” and follow the instructions.
 
 To reproduce our analysis, please download the original data and update the `$DATA/sarafu_xDAI` directory.
 
 ### Trajectory extraction
 
-Funds can be systematically traced through individual accounts, from transaction to transaction, and this reveals the durations for which funds were held. This technique is called ``trajectory extraction'' and we do it using open-source software available at https://github.com/carolinamattsson/follow-the-money. 
+Funds can be systematically traced through individual accounts, from transaction to transaction, and this reveals the durations for which funds were held. This technique is called "trajectory extraction" and we do it using open-source software available at https://github.com/carolinamattsson/follow-the-money. 
 
 To reproduce our analysis, please download a copy of this repository.
 
 ### Empirical holding times
 
-The bash script `follow.sh` obtains empirical holding times from the Sarafu transaction records. It performs this list of tasks:
+The bash script `follow.sh` obtains empirical holding times from the Sarafu transaction records. 
+It performs this list of tasks:
 
 1. Define the filepaths to the $DATA directory and the `follow-the-money` repository.
 2. A basic pre-processing step, sending output to `$DATA/transactions/`.
@@ -49,9 +51,9 @@ To reproduce our analysis, please open `velocity.ipynb` as a python notebook, up
 
 ### References
 
-    Mattsson, C. E. S., Luedtke, A., & Takes, F. W. (2023). Inverse estimation of the transfer velocity of money (arXiv:2209.01512). https://doi.org/10.48550/arXiv.2209.01512
+* Mattsson, C. E. S., Luedtke, A., & Takes, F. W. (2023). Inverse estimation of the transfer velocity of money (arXiv:2209.01512). https://doi.org/10.48550/arXiv.2209.01512
 
-    Mattsson, C. E. S., Criscione, T., & Ruddick, W. O. (2022). Sarafu Community Inclusion Currency 2020-2021. Scientific Data, 9(426). https://doi.org/10.1038/s41597-022-01539-4
+* Mattsson, C. E. S., Criscione, T., & Ruddick, W. O. (2022). Sarafu Community Inclusion Currency 2020-2021. Scientific Data, 9(426). https://doi.org/10.1038/s41597-022-01539-4
 
-    Mattsson, C. E. S., & Takes, F. W. (2021). Trajectories through temporal networks. Applied Network Science, 6(35), 1–31. https://doi.org/10.1007/s41109-021-00374-7.
+* Mattsson, C. E. S., & Takes, F. W. (2021). Trajectories through temporal networks. Applied Network Science, 6(35), 1–31. https://doi.org/10.1007/s41109-021-00374-7.
 
