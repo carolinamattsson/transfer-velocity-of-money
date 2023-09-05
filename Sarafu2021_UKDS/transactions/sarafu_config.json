@@ -1,0 +1,13 @@
+{
+    "transaction_header": ["txn_ID","timestamp","type","src_ID","tgt_ID","amt"],
+    "timeformat": "%Y-%m-%d %H:%M:%S.%f",
+    "timewindow_beg": "2020-01-25 00:00:00.000000",
+    "timewindow_end": "2021-06-15 12:00:00.000000",
+    "boundary_type": "transactions",
+    "transaction_categories":{
+        "DISBURSEMENT":"deposit",
+        "STANDARD":"transfer",
+        "AGENT_OUT":"transfer",
+        "RECLAMATION":"withdraw"
+    }
+}
