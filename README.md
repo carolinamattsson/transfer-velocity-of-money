@@ -9,7 +9,9 @@ Mattsson, C. E. S., Luedtke, A., & Takes, F. W. (2023). Inverse estimation of th
 ### Downloading the data
 
 The Sarafu CIC 2020–2021 dataset is available via the UK Data Service (UKDS) ReShare platform and has been suitably documented (Mattsson et al., 2022; https://reshare.ukdataservice.ac.uk/855142/). The dataset is “safeguarded”, meaning that access is limited to those who have registered with the UKDS and re-use is constrained by the UKDS End User License (EUL). Seeking to re-identify individuals is explicitly prohibited.
-This page allows you to apply for an account: https://beta.ukdataservice.ac.uk/myaccount/credentials. Check the box with "My organisation is not listed, I need to request a UK Data Service username.” and follow the instructions.
+- This page allows you to apply for an account: https://beta.ukdataservice.ac.uk/myaccount/credentials. 
+- Check the box with "My organisation is not listed, I need to request a UK Data Service username.”
+- Follow the instructions.
 
 To reproduce our analysis, please download the original data and update the `$DATA/sarafu_xDAI` directory.
 
