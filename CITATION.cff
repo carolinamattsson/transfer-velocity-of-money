@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this method, please cite the accompanying paper."
+authors:
+- family-names: "Mattsson"
+  given-names: "Carolina E. S."
+  orcid: "https://orcid.org/0000-0002-9160-7523"
+title: "follow-the-money"
+version: 2.0.0
+doi: 
+date-released: 
+url: "https://github.com/carolinamattsson/follow-the-money"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Mattsson"
+    given-names: "Carolina E. S."
+    orcid: "https://orcid.org/0000-0002-9160-7523"
+  - family-names: "Takes"
+    given-names: "Frank W."
+    orcid: "https://orcid.org/0000-0001-5468-1030"
+  - family-names: "Luedtke"
+    given-names: "Allison"
+    orcid: "https://orcid.org/0000-0003-3334-008X"
+  doi: "10.1007/s41109-021-00374-7"
+  journal: "Applied Network Science"
+  month: 12
+  start: 1 # First page number
+  end: 31 # Last page number
+  title: "Trajectories through temporal networks"
+  issue: 35
+  volume: 6
+  year: 2021
