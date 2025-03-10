@@ -4,8 +4,8 @@ authors:
 - family-names: "Mattsson"
   given-names: "Carolina E. S."
   orcid: "https://orcid.org/0000-0002-9160-7523"
-title: "follow-the-money"
-version: 2.0.0
+title: "transfer-velocity-of-money"
+version: 1.0.0
 doi: 
 date-released: 
 url: "https://github.com/carolinamattsson/follow-the-money"
@@ -21,12 +21,8 @@ preferred-citation:
   - family-names: "Luedtke"
     given-names: "Allison"
     orcid: "https://orcid.org/0000-0003-3334-008X"
-  doi: "10.1007/s41109-021-00374-7"
-  journal: "Applied Network Science"
-  month: 12
-  start: 1 # First page number
-  end: 31 # Last page number
-  title: "Trajectories through temporal networks"
-  issue: 35
-  volume: 6
-  year: 2021
+  doi: "10.48550/arXiv.2209.01512"
+  url: "http://arxiv.org/abs/2209.01512"
+  month: 7
+  title: "Inverse estimation of the transfer velocity of money"
+  year: 2023
