@@ -6,6 +6,13 @@ This serves as the replication code and supplementary material for:
 
 Mattsson, C. E. S., Luedtke, A., & Takes, F. W. (2025). Holding Periods: Measuring the Inverse of Money Velocity from Transaction Records (arXiv:2209.01512). arXiv. https://doi.org/10.48550/arXiv.2209.01512
 
+### Repository & environment
+
+To reproduce our analysis, please download a copy of this repository. The dependencies are listed in `environment.yml`; we used conda to build the environment. If you would like to do the same, first ensure that conda or miniconda is installed, then navigate into the project folder, then run the following commands in the terminal:
+
+    conda env create -f environment.yml
+    conda activate velocity
+
 ### Downloading the data
 
 The Sarafu CIC 2020–2021 dataset is available via the UK Data Service (UKDS) ReShare platform and has been suitably documented (Mattsson et al., 2022; https://reshare.ukdataservice.ac.uk/855142/). The dataset is “safeguarded”, meaning that access is limited to those who have registered with the UKDS and re-use is constrained by the UKDS End User License (EUL). Seeking to re-identify individuals is explicitly prohibited.
@@ -17,9 +24,7 @@ To reproduce our analysis, please download the original data and update the `$DA
 
 ### Trajectory extraction
 
-Funds can be systematically traced through individual accounts, from transaction to transaction. Holding periods are the spaces between transactions so this gives us their weight and duration. This technique is called "trajectory extraction" and we make use of the open-source software available at https://github.com/carolinamattsson/follow-the-money. 
-
-To reproduce our analysis, please download a copy of this repository.
+Funds can be systematically traced through individual accounts, from transaction to transaction. Holding periods are the spaces between transactions so this gives us their weight and duration. This technique is called "trajectory extraction" and we make use of the open-source software available at https://github.com/carolinamattsson/follow-the-money. Please download this a copy of this repository (`$FOLLOW`).
 
 ### Empirical holding times
 
@@ -52,7 +57,7 @@ Then run `follow.sh` in the command line:
 
 ### Tables and plots
 
-To reproduce our analysis, please open `velocity.ipynb` as a python notebook, update the filepaths, and run.
+To reproduce our analysis, please open `velocity.ipynb` as a python notebook, update the filepaths, find the environment, and run all.
 
 ### References
 
