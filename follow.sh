@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DATA='/Users/carolina.mattsson/Documents/Research/Sarafu/Sarafu2021_UKDS'
-FOLLOW='/Users/carolina.mattsson/Developer/GitHub/follow-the-money'
+DATA='<path>/Sarafu2021_UKDS'
+FOLLOW='<path>/follow-the-money'
 
 # Remove transactions directly between system-run accounts to avoid them appreading as user accounts
 cut -d, -f1-6 $DATA/sarafu_xDAI/sarafu_txns_20200125-20210615.csv | grep -vF "0xBDB3Bc887C3b70586BC25D04d89eC802b897fC5F,0xEDA5C9B75Fdb3B9bdAB987A704632280Cf93084F" | grep -vF "0xBDB3Bc887C3b70586BC25D04d89eC802b897fC5F,0xBDB3Bc887C3b70586BC25D04d89eC802b897fC5F" > $DATA/transactions/sarafu_txns.csv
