@@ -17,7 +17,7 @@ To reproduce our analysis, please download the original data and update the `$DA
 
 ### Trajectory extraction
 
-Funds can be systematically traced through individual accounts, from transaction to transaction, and this reveals the durations for which funds were held. This technique is called "trajectory extraction" and we do it using open-source software available at https://github.com/carolinamattsson/follow-the-money. 
+Funds can be systematically traced through individual accounts, from transaction to transaction. Holding periods are the spaces between transactions so this gives us their weight and duration. This technique is called "trajectory extraction" and we make use of the open-source software available at https://github.com/carolinamattsson/follow-the-money. 
 
 To reproduce our analysis, please download a copy of this repository.
 
@@ -56,7 +56,7 @@ To reproduce our analysis, please open `velocity.ipynb` as a python notebook, up
 
 ### References
 
-* Mattsson, C. E. S., Luedtke, A., & Takes, F. W. (2023). Inverse estimation of the transfer velocity of money (arXiv:2209.01512). https://doi.org/10.48550/arXiv.2209.01512
+* Mattsson, C. E. S., Luedtke, A., & Takes, F. W. (2025). Holding Periods: Measuring the Inverse of Money Velocity from Transaction Records (arXiv:2209.01512). arXiv. https://doi.org/10.48550/arXiv.2209.01512
 
 * Mattsson, C. E. S., Criscione, T., & Ruddick, W. O. (2022). Sarafu Community Inclusion Currency 2020-2021. Scientific Data, 9(426). https://doi.org/10.1038/s41597-022-01539-4
 
